@@ -8,8 +8,11 @@ This project is a template for quickly creating a repository based on [s-templat
 
 ```bash
 yarn install
-yarn init
-yarn build
+yarn s-init
+yarn s-build
+yarn install
+nano tools/customize/customize.config.ts
+yarn customize
 ```
 
 ## Instructions
@@ -28,7 +31,7 @@ yarn install
 **Initialization:**
 
 ```bash
-yarn init
+yarn s-init
 # or
 s-init --remoteRepository='https://github.com/SebastianWesolowski/s-template/tree/main/templates/node'
 ```
@@ -36,7 +39,7 @@ s-init --remoteRepository='https://github.com/SebastianWesolowski/s-template/tre
 **Build:**
 
 ```bash
-yarn build
+yarn s-build
 # or
 s-build --remoteRepository='https://github.com/SebastianWesolowski/s-template/tree/main/templates/node'
 ```
@@ -44,7 +47,7 @@ s-build --remoteRepository='https://github.com/SebastianWesolowski/s-template/tr
 **Update:**
 
 ```bash
-yarn update
+yarn s-update
 # or
 s-update --remoteRepository='https://github.com/SebastianWesolowski/s-template/tree/main/templates/node'
 ```
@@ -59,8 +62,8 @@ Tool for managing templates from the s-template repository. More information: [s
 
 Full documentation: [https://github.com/SebastianWesolowski/s-template/tree/dev/templates](https://github.com/SebastianWesolowski/s-template/tree/dev/templates)
 
-- **[NextJs/NextJs15-basic](https://github.com/SebastianWesolowski/s-template/tree/dev/templates/NextJs/NextJs15-basic)**
 - **[NextJs/NextJs15](https://github.com/SebastianWesolowski/s-template/tree/dev/templates/NextJs/NextJs15)**
+- **[NextJs/NextJs15-lp](https://github.com/SebastianWesolowski/s-template/tree/dev/templates/NextJs/NextJs15-lp)**
 - **[mockTemplateWithImageWithConfig/templateCatalog](https://github.com/SebastianWesolowski/s-template/tree/dev/templates/mockTemplateWithImageWithConfig/templateCatalog)**
 - **[mocks](https://github.com/SebastianWesolowski/s-template/tree/dev/templates/mocks)**
 - **[nestjs](https://github.com/SebastianWesolowski/s-template/tree/dev/templates/nestjs)**

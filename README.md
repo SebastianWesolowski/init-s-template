@@ -9,10 +9,9 @@ This project is a template for quickly creating a repository based on [s-templat
 ```bash
 yarn install
 yarn s-init
-yarn s-build
-yarn install
 nano tools/customize/customize.config.ts
 yarn customize
+yarn install
 ```
 
 ## Instructions
